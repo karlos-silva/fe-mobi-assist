@@ -1,0 +1,258 @@
+<svg width="957" height="843" viewBox="0 0 717.75 632.25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(69.48585998292106,417.7214677314063) scale(0.6488693834695922)">
+<title>G</title>
+<polygon fill="transparent" stroke="transparent" points="-4,4 -4,-526 911,-526 911,4 -4,4"></polygon>
+<!-- drivers -->
+<g id="node1" class="node">
+<title>drivers</title>
+<polygon fill="#232d95" stroke="transparent" points="285,-504 285,-522 477,-522 477,-504 285,-504"></polygon>
+<polygon fill="none" stroke="white" points="285,-504 285,-522 477,-522 477,-504 285,-504"></polygon>
+<text text-anchor="start" x="288" y="-511" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">"drivers"</text>
+<polygon fill="#404040" stroke="transparent" points="285,-486 285,-504 477,-504 477,-486 285,-486"></polygon>
+<polygon fill="none" stroke="white" points="285,-486 285,-504 477,-504 477,-486 285,-486"></polygon>
+<text text-anchor="start" x="288" y="-493" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="303.28" y="-493" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="310.28" y="-493" font-family="opensans" font-size="10.00" fill="white"> id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-468 285,-486 477,-486 477,-468 285,-468"></polygon>
+<polygon fill="none" stroke="white" points="285,-468 285,-486 477,-486 477,-468 285,-468"></polygon>
+<text text-anchor="start" x="288" y="-474" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpf TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-450 285,-468 477,-468 477,-450 285,-450"></polygon>
+<polygon fill="none" stroke="white" points="285,-450 285,-468 477,-468 477,-450 285,-450"></polygon>
+<text text-anchor="start" x="288" y="-456" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;city TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-432 285,-450 477,-450 477,-432 285,-432"></polygon>
+<polygon fill="none" stroke="white" points="285,-432 285,-450 477,-450 477,-432 285,-432"></polygon>
+<text text-anchor="start" x="288" y="-438" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;state TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-414 285,-432 477,-432 477,-414 285,-414"></polygon>
+<polygon fill="none" stroke="white" points="285,-414 285,-432 477,-432 477,-414 285,-414"></polygon>
+<text text-anchor="start" x="288" y="-420" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;adress TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-396 285,-414 477,-414 477,-396 285,-396"></polygon>
+<polygon fill="none" stroke="white" points="285,-396 285,-414 477,-414 477,-396 285,-396"></polygon>
+<text text-anchor="start" x="288" y="-402" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phone TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-378 285,-396 477,-396 477,-378 285,-378"></polygon>
+<polygon fill="none" stroke="white" points="285,-378 285,-396 477,-396 477,-378 285,-378"></polygon>
+<text text-anchor="start" x="288" y="-384" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-360 285,-378 477,-378 477,-360 285,-360"></polygon>
+<polygon fill="none" stroke="white" points="285,-360 285,-378 477,-378 477,-360 285,-360"></polygon>
+<text text-anchor="start" x="288" y="-366" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;name TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-342 285,-360 477,-360 477,-342 285,-342"></polygon>
+<polygon fill="none" stroke="white" points="285,-342 285,-360 477,-360 477,-342 285,-342"></polygon>
+<text text-anchor="start" x="288" y="-348" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;password TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-324 285,-342 477,-342 477,-324 285,-324"></polygon>
+<polygon fill="none" stroke="white" points="285,-324 285,-342 477,-342 477,-324 285,-324"></polygon>
+<text text-anchor="start" x="288" y="-330" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cnh_number INTEGER NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-306 285,-324 477,-324 477,-306 285,-306"></polygon>
+<polygon fill="none" stroke="white" points="285,-306 285,-324 477,-324 477,-306 285,-306"></polygon>
+<text text-anchor="start" x="287.56" y="-312" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cnh_expiration_date TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-288 285,-306 477,-306 477,-288 285,-288"></polygon>
+<polygon fill="none" stroke="white" points="285,-288 285,-306 477,-306 477,-288 285,-288"></polygon>
+<text text-anchor="start" x="287.55" y="-294" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cnh_category CnhCategory NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-270 285,-288 477,-288 477,-270 285,-270"></polygon>
+<polygon fill="none" stroke="white" points="285,-270 285,-288 477,-288 477,-270 285,-270"></polygon>
+<text text-anchor="start" x="288" y="-277" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="303.28" y="-277" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="310.28" y="-277" font-family="opensans" font-size="10.00" fill="white"> qualification_id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="285,-252 285,-270 477,-270 477,-252 285,-252"></polygon>
+<polygon fill="none" stroke="white" points="285,-252 285,-270 477,-270 477,-252 285,-252"></polygon>
+<text text-anchor="start" x="288" y="-259" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="303.28" y="-259" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="310.28" y="-259" font-family="opensans" font-size="10.00" fill="white"> vehicle_id TEXT NOT NULL</text>
+</g>
+<!-- qualification -->
+<g id="node2" class="node" style="opacity: 1;">
+<title>qualification</title>
+<polygon fill="#232d95" stroke="transparent" points="537.5,-315 537.5,-333 692.5,-333 692.5,-315 537.5,-315"></polygon>
+<polygon fill="none" stroke="white" points="537.5,-315 537.5,-333 692.5,-333 692.5,-315 537.5,-315"></polygon>
+<text text-anchor="start" x="540.5" y="-322" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">"qualification"</text>
+<polygon fill="#404040" stroke="transparent" points="537.5,-297 537.5,-315 692.5,-315 692.5,-297 537.5,-297"></polygon>
+<polygon fill="none" stroke="white" points="537.5,-297 537.5,-315 692.5,-315 692.5,-297 537.5,-297"></polygon>
+<text text-anchor="start" x="540.5" y="-304" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="555.78" y="-304" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="562.78" y="-304" font-family="opensans" font-size="10.00" fill="white"> id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="537.5,-279 537.5,-297 692.5,-297 692.5,-279 537.5,-279"></polygon>
+<polygon fill="none" stroke="white" points="537.5,-279 537.5,-297 692.5,-297 692.5,-279 537.5,-279"></polygon>
+<text text-anchor="start" x="540.16" y="-285" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;description TEXT NOT NULL</text>
+</g>
+<!-- drivers&#45;&gt;qualification -->
+<g id="edge1" class="edge" style="opacity: 1;">
+<title>drivers:qualification_id-&gt;qualification:id</title>
+<path fill="none" stroke="#5ea54a" d="M477,-279C502.3,-279 506.64,-299.49 526.53,-304.77"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="526.15,-308.25 536.5,-306 527,-301.3 526.15,-308.25"></polygon>
+</g>
+<!-- vehicles -->
+<g id="node6" class="node" style="opacity: 1;">
+<title>vehicles</title>
+<polygon fill="#232d95" stroke="transparent" points="513.5,-243 513.5,-261 716.5,-261 716.5,-243 513.5,-243"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-243 513.5,-261 716.5,-261 716.5,-243 513.5,-243"></polygon>
+<text text-anchor="start" x="516.5" y="-250" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">"vehicles"</text>
+<polygon fill="#404040" stroke="transparent" points="513.5,-225 513.5,-243 716.5,-243 716.5,-225 513.5,-225"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-225 513.5,-243 716.5,-243 716.5,-225 513.5,-225"></polygon>
+<text text-anchor="start" x="516.5" y="-232" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="531.78" y="-232" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="538.78" y="-232" font-family="opensans" font-size="10.00" fill="white"> id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="513.5,-207 513.5,-225 716.5,-225 716.5,-207 513.5,-207"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-207 513.5,-225 716.5,-225 716.5,-207 513.5,-207"></polygon>
+<text text-anchor="start" x="516.5" y="-213" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;renavam TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="513.5,-189 513.5,-207 716.5,-207 716.5,-189 513.5,-189"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-189 513.5,-207 716.5,-207 716.5,-189 513.5,-189"></polygon>
+<text text-anchor="start" x="516.5" y="-195" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;plate TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="513.5,-171 513.5,-189 716.5,-189 716.5,-171 513.5,-171"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-171 513.5,-189 716.5,-189 716.5,-171 513.5,-171"></polygon>
+<text text-anchor="start" x="516.5" y="-177" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;brand TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="513.5,-153 513.5,-171 716.5,-171 716.5,-153 513.5,-153"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-153 513.5,-171 716.5,-171 716.5,-153 513.5,-153"></polygon>
+<text text-anchor="start" x="516.5" y="-159" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;model TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="513.5,-135 513.5,-153 716.5,-153 716.5,-135 513.5,-135"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-135 513.5,-153 716.5,-153 716.5,-135 513.5,-135"></polygon>
+<text text-anchor="start" x="516.5" y="-141" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;color TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="513.5,-117 513.5,-135 716.5,-135 716.5,-117 513.5,-117"></polygon>
+<polygon fill="none" stroke="white" points="513.5,-117 513.5,-135 716.5,-135 716.5,-117 513.5,-117"></polygon>
+<text text-anchor="start" x="516.39" y="-124" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="531.67" y="-124" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="538.67" y="-124" font-family="opensans" font-size="10.00" fill="white"> special_equipament_id TEXT NOT NULL</text>
+</g>
+<!-- drivers&#45;&gt;vehicles -->
+<g id="edge2" class="edge" style="opacity: 1;">
+<title>drivers:vehicle_id-&gt;vehicles:id</title>
+<path fill="none" stroke="#5ea54a" d="M477,-261C492.94,-261 493.63,-243.85 503.38,-236.89"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="504.43,-240.23 513,-234 502.42,-233.52 504.43,-240.23"></polygon>
+</g>
+<!-- passengers -->
+<g id="node3" class="node">
+<title>passengers</title>
+<polygon fill="#232d95" stroke="transparent" points="299,-216 299,-234 464,-234 464,-216 299,-216"></polygon>
+<polygon fill="none" stroke="white" points="299,-216 299,-234 464,-234 464,-216 299,-216"></polygon>
+<text text-anchor="start" x="302" y="-223" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">"passengers"</text>
+<polygon fill="#404040" stroke="transparent" points="299,-198 299,-216 464,-216 464,-198 299,-198"></polygon>
+<polygon fill="none" stroke="white" points="299,-198 299,-216 464,-216 464,-198 299,-198"></polygon>
+<text text-anchor="start" x="302" y="-205" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="317.28" y="-205" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="324.28" y="-205" font-family="opensans" font-size="10.00" fill="white"> id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-180 299,-198 464,-198 464,-180 299,-180"></polygon>
+<polygon fill="none" stroke="white" points="299,-180 299,-198 464,-198 464,-180 299,-180"></polygon>
+<text text-anchor="start" x="302" y="-186" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cpf TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-162 299,-180 464,-180 464,-162 299,-162"></polygon>
+<polygon fill="none" stroke="white" points="299,-162 299,-180 464,-180 464,-162 299,-162"></polygon>
+<text text-anchor="start" x="302" y="-168" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;city TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-144 299,-162 464,-162 464,-144 299,-144"></polygon>
+<polygon fill="none" stroke="white" points="299,-144 299,-162 464,-162 464,-144 299,-144"></polygon>
+<text text-anchor="start" x="302" y="-150" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;state TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-126 299,-144 464,-144 464,-126 299,-126"></polygon>
+<polygon fill="none" stroke="white" points="299,-126 299,-144 464,-144 464,-126 299,-126"></polygon>
+<text text-anchor="start" x="302" y="-132" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;adress TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-108 299,-126 464,-126 464,-108 299,-108"></polygon>
+<polygon fill="none" stroke="white" points="299,-108 299,-126 464,-126 464,-108 299,-108"></polygon>
+<text text-anchor="start" x="302" y="-114" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phone TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-90 299,-108 464,-108 464,-90 299,-90"></polygon>
+<polygon fill="none" stroke="white" points="299,-90 299,-108 464,-108 464,-90 299,-90"></polygon>
+<text text-anchor="start" x="302" y="-96" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;email TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-72 299,-90 464,-90 464,-72 299,-72"></polygon>
+<polygon fill="none" stroke="white" points="299,-72 299,-90 464,-90 464,-72 299,-72"></polygon>
+<text text-anchor="start" x="302" y="-78" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;name TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-54 299,-72 464,-72 464,-54 299,-54"></polygon>
+<polygon fill="none" stroke="white" points="299,-54 299,-72 464,-72 464,-54 299,-54"></polygon>
+<text text-anchor="start" x="302" y="-60" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;password TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-36 299,-54 464,-54 464,-36 299,-36"></polygon>
+<polygon fill="none" stroke="white" points="299,-36 299,-54 464,-54 464,-36 299,-36"></polygon>
+<text text-anchor="start" x="302" y="-42" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;observation TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="299,-18 299,-36 464,-36 464,-18 299,-18"></polygon>
+<polygon fill="none" stroke="white" points="299,-18 299,-36 464,-36 464,-18 299,-18"></polygon>
+<text text-anchor="start" x="301.78" y="-25" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="317.05" y="-25" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="324.05" y="-25" font-family="opensans" font-size="10.00" fill="white"> deficiency_id TEXT NOT NULL</text>
+</g>
+<!-- Deficiency -->
+<g id="node4" class="node" style="opacity: 1;">
+<title>Deficiency</title>
+<polygon fill="#232d95" stroke="transparent" points="537.5,-36 537.5,-54 692.5,-54 692.5,-36 537.5,-36"></polygon>
+<polygon fill="none" stroke="white" points="537.5,-36 537.5,-54 692.5,-54 692.5,-36 537.5,-36"></polygon>
+<text text-anchor="start" x="540.5" y="-43" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">"Deficiency"</text>
+<polygon fill="#404040" stroke="transparent" points="537.5,-18 537.5,-36 692.5,-36 692.5,-18 537.5,-18"></polygon>
+<polygon fill="none" stroke="white" points="537.5,-18 537.5,-36 692.5,-36 692.5,-18 537.5,-18"></polygon>
+<text text-anchor="start" x="540.5" y="-25" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="555.78" y="-25" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="562.78" y="-25" font-family="opensans" font-size="10.00" fill="white"> id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="537.5,0 537.5,-18 692.5,-18 692.5,0 537.5,0"></polygon>
+<polygon fill="none" stroke="white" points="537.5,0 537.5,-18 692.5,-18 692.5,0 537.5,0"></polygon>
+<text text-anchor="start" x="540.16" y="-6" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;description TEXT NOT NULL</text>
+</g>
+<!-- passengers&#45;&gt;Deficiency -->
+<g id="edge3" class="edge" style="opacity: 1;">
+<title>passengers:deficiency_id-&gt;Deficiency:id</title>
+<path fill="none" stroke="#5ea54a" d="M465,-27C493.05,-27 502.53,-27 526.23,-27"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="526.5,-30.5 536.5,-27 526.5,-23.5 526.5,-30.5"></polygon>
+</g>
+<!-- races -->
+<g id="node5" class="node">
+<title>races</title>
+<polygon fill="#232d95" stroke="transparent" points="0.5,-495 0.5,-513 249.5,-513 249.5,-495 0.5,-495"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-495 0.5,-513 249.5,-513 249.5,-495 0.5,-495"></polygon>
+<text text-anchor="start" x="3.5" y="-502" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">"races"</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-477 0.5,-495 249.5,-495 249.5,-477 0.5,-477"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-477 0.5,-495 249.5,-495 249.5,-477 0.5,-477"></polygon>
+<text text-anchor="start" x="3.5" y="-484" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="18.78" y="-484" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-484" font-family="opensans" font-size="10.00" fill="white"> id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-459 0.5,-477 249.5,-477 249.5,-459 0.5,-459"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-459 0.5,-477 249.5,-477 249.5,-459 0.5,-459"></polygon>
+<text text-anchor="start" x="3.5" y="-465" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;startTime TIMESTAMP(3) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-441 0.5,-459 249.5,-459 249.5,-441 0.5,-441"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-441 0.5,-459 249.5,-459 249.5,-441 0.5,-441"></polygon>
+<text text-anchor="start" x="3.5" y="-447" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;endTime TIMESTAMP(3) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-423 0.5,-441 249.5,-441 249.5,-423 0.5,-423"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-423 0.5,-441 249.5,-441 249.5,-423 0.5,-423"></polygon>
+<text text-anchor="start" x="3.5" y="-429" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;origem_latitude DECIMAL(65, 30) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-405 0.5,-423 249.5,-423 249.5,-405 0.5,-405"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-405 0.5,-423 249.5,-423 249.5,-405 0.5,-405"></polygon>
+<text text-anchor="start" x="3.5" y="-411" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;origem_longitude DECIMAL(65, 30) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-387 0.5,-405 249.5,-405 249.5,-387 0.5,-387"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-387 0.5,-405 249.5,-405 249.5,-387 0.5,-387"></polygon>
+<text text-anchor="start" x="3.5" y="-393" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;destination_latitude DECIMAL(65, 30) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-369 0.5,-387 249.5,-387 249.5,-369 0.5,-369"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-369 0.5,-387 249.5,-387 249.5,-369 0.5,-369"></polygon>
+<text text-anchor="start" x="3.22" y="-375" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;destination_longitude DECIMAL(65, 30) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-351 0.5,-369 249.5,-369 249.5,-351 0.5,-351"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-351 0.5,-369 249.5,-369 249.5,-351 0.5,-351"></polygon>
+<text text-anchor="start" x="3.5" y="-358" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.78" y="-358" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-358" font-family="opensans" font-size="10.00" fill="white"> passenger_id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-333 0.5,-351 249.5,-351 249.5,-333 0.5,-333"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-333 0.5,-351 249.5,-351 249.5,-333 0.5,-333"></polygon>
+<text text-anchor="start" x="3.5" y="-340" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.78" y="-340" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-340" font-family="opensans" font-size="10.00" fill="white"> driver_id TEXT NOT NULL</text>
+</g>
+<!-- races&#45;&gt;drivers -->
+<g id="edge5" class="edge">
+<title>races:driver_id-&gt;drivers:id</title>
+<path fill="none" stroke="#5ea54a" d="M249,-342C315.04,-342 225.97,-478.72 275.04,-493.68"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="274.63,-497.15 285,-495 275.55,-490.21 274.63,-497.15"></polygon>
+</g>
+<!-- races&#45;&gt;passengers -->
+<g id="edge4" class="edge">
+<title>races:passenger_id-&gt;passengers:id</title>
+<path fill="none" stroke="#5ea54a" d="M249,-360C316.64,-360 236.03,-222.71 288.03,-208.23"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="288.5,-211.7 298,-207 287.65,-204.75 288.5,-211.7"></polygon>
+</g>
+<!-- special_equipaments -->
+<g id="node7" class="node" style="opacity: 1;">
+<title>special_equipaments</title>
+<polygon fill="#232d95" stroke="transparent" points="752.5,-135 752.5,-153 907.5,-153 907.5,-135 752.5,-135"></polygon>
+<polygon fill="none" stroke="white" points="752.5,-135 752.5,-153 907.5,-153 907.5,-135 752.5,-135"></polygon>
+<text text-anchor="start" x="755.5" y="-142" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">"special_equipaments"</text>
+<polygon fill="#404040" stroke="transparent" points="752.5,-117 752.5,-135 907.5,-135 907.5,-117 752.5,-117"></polygon>
+<polygon fill="none" stroke="white" points="752.5,-117 752.5,-135 907.5,-135 907.5,-117 752.5,-117"></polygon>
+<text text-anchor="start" x="755.5" y="-124" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="770.78" y="-124" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="777.78" y="-124" font-family="opensans" font-size="10.00" fill="white"> id TEXT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="752.5,-99 752.5,-117 907.5,-117 907.5,-99 752.5,-99"></polygon>
+<polygon fill="none" stroke="white" points="752.5,-99 752.5,-117 907.5,-117 907.5,-99 752.5,-99"></polygon>
+<text text-anchor="start" x="755.16" y="-105" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;description TEXT NOT NULL</text>
+</g>
+<!-- vehicles&#45;&gt;special_equipaments -->
+<g id="edge6" class="edge" style="opacity: 1;">
+<title>vehicles:special_equipament_id-&gt;special_equipaments:id</title>
+<path fill="none" stroke="#5ea54a" d="M716,-126C728,-126 733.25,-126 741.88,-126"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="742,-129.5 752,-126 742,-122.5 742,-129.5"></polygon>
+</g>
+</g>
+</svg>

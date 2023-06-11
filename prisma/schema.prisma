@@ -1,0 +1,117 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Driver {
+  id                  String      @id @default(uuid())
+  cpf                 String      @unique
+  city                String
+  state               String
+  adress              String
+  phone               String
+  email               String      @unique
+  name                String
+  password            String
+  cnh_number          Int         @unique
+  cnh_expiration_date String
+  cnh_category        CnhCategory
+
+  qualification    Qualification @relation(fields: [qualification_id], references: [id])
+  qualification_id String        @unique
+
+  vehicle    Vehicle @relation(fields: [vehicle_id], references: [id])
+  vehicle_id String  @unique
+  Race       Race[]
+
+  @@map("drivers")
+}
+
+model Qualification {
+  id          String  @id @default(uuid())
+  description String
+  driver      Driver?
+
+  @@map("qualification")
+}
+
+enum CnhCategory {
+  A
+  B
+  C
+  D
+  E
+}
+
+model Passenger {
+  id          String @id @default(uuid())
+  cpf         String @unique
+  city        String
+  state       String
+  adress      String
+  phone       String
+  email       String @unique
+  name        String
+  password    String
+  observation String
+
+  deficiency    Deficiency @relation(fields: [deficiency_id], references: [id])
+  deficiency_id String     @unique
+  Race          Race[]
+
+  @@map("passengers")
+}
+
+model Deficiency {
+  id          String     @id @default(uuid())
+  description String
+  Passenger   Passenger?
+}
+
+model Race {
+  id                    String   @id @default(uuid())
+  startTime             DateTime
+  endTime               DateTime
+  origem_latitude       Decimal
+  origem_longitude      Decimal
+  destination_latitude  Decimal
+  destination_longitude Decimal
+  raceValue             Float
+
+  passenger    Passenger @relation(fields: [passenger_id], references: [id])
+  passenger_id String
+  driver       Driver    @relation(fields: [driver_id], references: [id])
+  driver_id    String
+
+  @@map("races")
+}
+
+model Vehicle {
+  id      String @id @default(uuid())
+  renavam String
+  plate   String
+  brand   String
+  model   String
+  color   String
+
+  specialEquipament     SpecialEquipament @relation(fields: [special_equipament_id], references: [id])
+  special_equipament_id String            @unique
+  driver                Driver?
+
+  @@map("vehicles")
+}
+
+model SpecialEquipament {
+  id          String    @id @default(uuid())
+  description String
+  vehicle     Vehicle[]
+
+  @@map("special_equipaments")
+}
